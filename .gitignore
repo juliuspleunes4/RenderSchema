@@ -44,6 +44,12 @@ htmlcov/
 *.manifest
 *.spec
 
+# Generated diagrams in examples directory
+examples/*.svg
+examples/*.png
+examples/*.pdf
+examples/*.html
+
 # Misc
 .DS_Store
 Thumbs.db

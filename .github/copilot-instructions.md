@@ -167,3 +167,8 @@ Email: jjgpleunes@gmail.com
 🎯 **Focus on making diagram generation effortless and beautiful**  
 🧪 **Test thoroughly — developers will rely on accurate diagrams**  
 📦 **Think open-source — write for the community**
+
+> MAKE SURE THAT ALL EXPORTS ARE CLEAN IN THE PRODUCTION.
+>
+> Example of clean looking export: `from renderschema import diagram`
+> Example of non-clean looking export: `from renderschema import renderschema; renderschema.diagram(...)`

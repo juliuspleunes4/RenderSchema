@@ -8,6 +8,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- Initial project structure
-- Copilot instructions for development guidelines
-- CHANGELOG.md for tracking all project changes
+- Initial project structure and package setup
+- Copilot instructions for development guidelines with strict documentation rules
+- Core `diagram()` function for easy diagram generation
+- `BaseDiagramGenerator` abstract class for extensible diagram types
+- `UMLDiagramGenerator` for generating UML class diagrams from Python classes
+- `FlowchartGenerator` for creating flowcharts from Python functions
+- `ClassDiagramGenerator` for visualizing class relationships and inheritance
+- Export support for SVG, PNG, PDF, and HTML formats
+- Interactive HTML export with zoom and pan capabilities
+- Light and dark theme support with Tailwind-inspired colors
+- Comprehensive test suite using pytest with fixtures
+- Example scripts demonstrating UML, flowchart, and class relationship diagrams
+- Quick start guide in `docs/QUICKSTART.md`
+- Contributing guidelines in `CONTRIBUTING.md`
+- MIT License
+- `pyproject.toml` with modern Python packaging configuration
+- Development tools configuration (pytest, black, ruff, mypy)
+- `.gitignore` configured to exclude generated diagrams and build artifacts
