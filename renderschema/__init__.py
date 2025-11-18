@@ -9,7 +9,7 @@ from .core import diagram
 from .generators import UMLDiagramGenerator, FlowchartGenerator, ClassDiagramGenerator
 from .exporters import SVGExporter, PNGExporter, PDFExporter, HTMLExporter
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 __all__ = [
     "diagram",
     "UMLDiagramGenerator",
