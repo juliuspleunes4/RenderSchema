@@ -38,3 +38,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added `MANIFEST.in` for proper package distribution
 - Created `docs/PUBLISHING.md` with complete PyPI publishing guide
 - Package successfully builds with no warnings or errors
+- Added PyPI version badge to README.md
+
+### Published
+- **First release published to PyPI**: https://pypi.org/project/renderschema/
+- Package available via `pip install renderschema`
