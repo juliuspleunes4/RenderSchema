@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [0.1.0] - 2025-11-18
 
 ### Added
 - Initial project structure and package setup
@@ -31,3 +31,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated project URLs in `pyproject.toml` to point to actual GitHub repository
 - Added author email to package metadata
 - Created comprehensive README.md with badges, features, usage examples, and roadmap
+- Fixed license format in `pyproject.toml` to use SPDX expression (removing deprecation warnings)
+- Removed deprecated license classifier from package metadata
+
+### Documentation
+- Added `MANIFEST.in` for proper package distribution
+- Created `docs/PUBLISHING.md` with complete PyPI publishing guide
+- Package successfully builds with no warnings or errors
