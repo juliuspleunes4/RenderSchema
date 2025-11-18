@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
 authors = [
-    { name = "Julius Pleunes" }
+    { name = "Julius Pleunes", email = "jjgpleunes@gmail.com" }
 ]
 keywords = ["uml", "diagrams", "documentation", "visualization", "flowchart", "class-diagram"]
 classifiers = [
@@ -52,10 +52,10 @@ docs = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/<username>/renderschema"
+Homepage = "https://github.com/juliuspleunes4/RenderSchema"
 Documentation = "https://renderschema.readthedocs.io"
-Repository = "https://github.com/<username>/renderschema"
-"Bug Tracker" = "https://github.com/<username>/renderschema/issues"
+Repository = "https://github.com/juliuspleunes4/RenderSchema"
+"Bug Tracker" = "https://github.com/juliuspleunes4/RenderSchema/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]

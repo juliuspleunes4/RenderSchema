@@ -160,6 +160,24 @@ Email: jjgpleunes@gmail.com
 
 ---
 
+## About Me
+
+I am Julius Pleunes.
+GitHub: juliuspleunes4
+This repo: https://github.com/juliuspleunes4/RenderSchema.git
+Email: jjgpleunes@gmail.com
+
+---
+
+## About Me
+
+I am Julius Pleunes.
+GitHub: juliuspleunes4
+This repo: https://github.com/juliuspleunes4/RenderSchema.git
+Email: jjgpleunes@gmail.com
+
+---
+
 ## Remember
 
 🚫 **NEVER create new `.md` files to explain changes**  

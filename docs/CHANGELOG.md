@@ -22,7 +22,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Example scripts demonstrating UML, flowchart, and class relationship diagrams
 - Quick start guide in `docs/QUICKSTART.md`
 - Contributing guidelines in `CONTRIBUTING.md`
-- MIT License
-- `pyproject.toml` with modern Python packaging configuration
+- MIT License with proper author attribution
+- `pyproject.toml` with modern Python packaging configuration and author credentials
 - Development tools configuration (pytest, black, ruff, mypy)
 - `.gitignore` configured to exclude generated diagrams and build artifacts
+
+### Changed
+- Updated project URLs in `pyproject.toml` to point to actual GitHub repository
+- Added author email to package metadata
