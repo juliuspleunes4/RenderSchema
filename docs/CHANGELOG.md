@@ -30,3 +30,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Updated project URLs in `pyproject.toml` to point to actual GitHub repository
 - Added author email to package metadata
+- Created comprehensive README.md with badges, features, usage examples, and roadmap
