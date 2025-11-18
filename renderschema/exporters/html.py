@@ -44,6 +44,30 @@ class HTMLExporter:
         Returns:
             Complete HTML document as a string.
         """
+        # Remove XML declaration if present (not needed in HTML)
+        if svg_content.strip().startswith('<?xml'):
+            svg_content = svg_content[svg_content.index('?>') + 2:].strip()
+        
+        # Add explicit width and height to SVG if not present
+        if 'width=' not in svg_content:
+            import re
+            # Match viewBox="minX minY width height"
+            viewbox_match = re.search(r'viewBox="[\d\s]+"', svg_content)
+            if viewbox_match:
+                viewbox_str = viewbox_match.group(0)
+                # Extract just the numbers
+                numbers = re.findall(r'\d+', viewbox_str)
+                if len(numbers) >= 4:
+                    width = numbers[2]
+                    height = numbers[3]
+                    # Insert width and height after <svg
+                    svg_content = re.sub(
+                        r'<svg\s+',
+                        f'<svg width="{width}" height="{height}" ',
+                        svg_content,
+                        count=1
+                    )
+        
         bg_color = "#0f172a" if theme == "dark" else "#f8fafc"
         
         interactive_script = ""
@@ -90,11 +114,14 @@ class HTMLExporter:
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
         }}
         .container {{
-            max-width: 100%;
-            overflow: auto;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }}
         svg {{
-            max-width: 100%;
+            width: 90%;
             height: auto;
             cursor: {'grab' if interactive else 'default'};
             transition: transform 0.1s ease;
