@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.1] - 2025-11-18
+
+### Fixed
+- Added missing `ClassDiagramGenerator` to package exports
+- Users can now properly import `ClassDiagramGenerator` directly from `renderschema`
+
+### Documentation
+- Verified and corrected API documentation against actual implementation
+- Clarified HTML export behavior in API reference
+
+---
+
 ## [0.1.0] - 2025-11-18
 
 ### Added
@@ -43,3 +55,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Published
 - **First release published to PyPI**: https://pypi.org/project/renderschema/
 - Package available via `pip install renderschema`
+- Created comprehensive API reference documentation in `docs/API.md`
