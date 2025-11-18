@@ -1,0 +1,2 @@
+# Force GitHub Linguist to treat every file in this repo as Python
+* linguist-language=Python
